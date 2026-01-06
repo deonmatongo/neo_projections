@@ -4,10 +4,10 @@ import { ArrowDown } from 'lucide-react';
 import { photos } from '@/utils/images';
 
 const heroImages = [
-  photos.photo_0021,
-  photos.photo_0022,
-  photos.photo_0023,
-  photos.photo_0024
+  photos.photo_0025,
+  photos.photo_0026,
+  photos.photo_0027,
+  photos.photo_0028
 ];
 
 export default function Hero() {
@@ -47,17 +47,16 @@ export default function Hero() {
           <img
             src={heroImages[currentIndex]}
             alt={`Hero image ${currentIndex + 1}`}
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full"
             style={{ 
               imageRendering: 'auto',
               WebkitImageRendering: 'optimizeQuality',
               backfaceVisibility: 'hidden',
-              transform: 'translateZ(0) scale(0.85)',
+              transform: 'translateZ(0)',
+              objectFit: 'cover',
               objectPosition: 'center center',
-              width: '120%',
-              height: '120%',
-              left: '-10%',
-              top: '-10%'
+              width: '100%',
+              height: '100%'
             }}
             loading="eager"
             fetchPriority="high"

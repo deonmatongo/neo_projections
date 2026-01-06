@@ -60,7 +60,7 @@ export default function Contact() {
             className="relative"
           >
             <img
-              src={photos.photo_0029}
+              src={photos.photo_0024}
               alt="Studio"
               className="w-full h-[500px] object-cover grayscale"
             />

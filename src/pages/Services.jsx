@@ -11,7 +11,7 @@ const services = [
     price: '1,400 zł',
     duration: '2 hours',
     deliverables: '30+ images',
-    image: photos.photo_0016,
+    image: photos.photo_0002,
     description: 'Intimate and expressive portrait sessions designed to capture your unique personality. Perfect for personal branding, headshots, or creative expression.',
     includes: [
       'Pre-session consultation to discuss vision and styling',
@@ -28,7 +28,7 @@ const services = [
     price: '3,000 zł',
     duration: '4 hours',
     deliverables: '50+ images',
-    image: photos.photo_0017,
+    image: photos.photo_0003,
     description: 'High-fashion photography for designers, models, and brands. Conceptual styling and dynamic compositions that make a statement.',
     includes: [
       'Full creative direction and mood board development',
@@ -46,7 +46,7 @@ const services = [
     price: '4,800 zł',
     duration: '6 hours',
     deliverables: '75+ images',
-    image: photos.photo_0018,
+    image: photos.photo_0004,
     description: 'Narrative-driven photography for magazines, publications, and storytelling projects. Conceptual artistry meets technical precision.',
     includes: [
       'Full concept development and storyboarding',
@@ -65,7 +65,7 @@ const services = [
     price: '10,000 zł',
     duration: 'Full day',
     deliverables: '100+ images',
-    image: photos.photo_0019,
+    image: photos.photo_0005,
     description: 'Professional commercial photography for brands, products, and advertising campaigns. Tailored solutions for your business needs.',
     includes: [
       'Comprehensive pre-production planning and strategy',
@@ -85,7 +85,7 @@ const services = [
     price: '7,200 zł',
     duration: '8 hours',
     deliverables: '200+ images',
-    image: photos.photo_0020,
+    image: photos.photo_0006,
     description: 'Comprehensive event documentation with an artistic eye. From corporate events to private celebrations, we capture every meaningful moment.',
     includes: [
       'Pre-event consultation and shot list planning',

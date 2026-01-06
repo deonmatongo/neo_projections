@@ -6,109 +6,109 @@ import { photos } from '@/utils/images';
 const portfolioImages = [
   {
     id: 1,
-    src: photos.photo_0001,
+    src: photos.photo_0002,
     title: "INTIMATE PORTRAIT",
     category: "portrait"
   },
   {
     id: 2,
-    src: photos.photo_0002,
+    src: photos.photo_0003,
     title: "HAUTE COUTURE",
     category: "fashion"
   },
   {
     id: 3,
-    src: photos.photo_0003,
+    src: photos.photo_0004,
     title: "SHADOW STUDY",
     category: "portrait"
   },
   {
     id: 4,
-    src: photos.photo_0004,
+    src: photos.photo_0005,
     title: "ELEGANCE",
     category: "editorial"
   },
   {
     id: 5,
-    src: photos.photo_0005,
+    src: photos.photo_0006,
     title: "NOIR SERIES",
     category: "editorial"
   },
   {
     id: 6,
-    src: photos.photo_0006,
+    src: photos.photo_0007,
     title: "URBAN SOUL",
     category: "portrait"
   },
   {
     id: 7,
-    src: photos.photo_0007,
+    src: photos.photo_0008,
     title: "RUNWAY",
     category: "fashion"
   },
   {
     id: 8,
-    src: photos.photo_0008,
+    src: photos.photo_0009,
     title: "STREET STYLE",
     category: "fashion"
   },
   {
     id: 9,
-    src: photos.photo_0009,
+    src: photos.photo_0010,
     title: "COMMERCIAL APPEAL",
     category: "commercial"
   },
   {
     id: 10,
-    src: photos.photo_0010,
+    src: photos.photo_0011,
     title: "BRAND IDENTITY",
     category: "commercial"
   },
   {
     id: 11,
-    src: photos.photo_0011,
+    src: photos.photo_0012,
     title: "GALA NIGHT",
     category: "event"
   },
   {
     id: 12,
-    src: photos.photo_0012,
+    src: photos.photo_0013,
     title: "CELEBRATION",
     category: "event"
   },
   {
     id: 13,
-    src: photos.photo_0013,
+    src: photos.photo_0015,
     title: "ESSENCE",
     category: "portrait"
   },
   {
     id: 14,
-    src: photos.photo_0014,
+    src: photos.photo_0016,
     title: "VOGUE",
     category: "fashion"
   },
   {
     id: 15,
-    src: photos.photo_0015,
+    src: photos.photo_0017,
     title: "NARRATIVE",
     category: "editorial"
   },
   {
     id: 16,
-    src: photos.photo_0025,
+    src: photos.photo_0018,
     title: "TIMELESS",
     category: "portrait"
   },
   {
     id: 17,
-    src: photos.photo_0026,
+    src: photos.photo_0019,
     title: "MOTION",
     category: "fashion"
   },
   {
     id: 18,
-    src: photos.photo_0029,
+    src: photos.photo_0020,
     title: "PRODUCT VISION",
     category: "commercial"
   }

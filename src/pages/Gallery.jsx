@@ -4,21 +4,21 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { photos } from '@/utils/images';
 
 const galleryImages = [
-  { id: 1, src: photos.photo_0001, category: 'portrait', title: 'Modern Portrait' },
-  { id: 2, src: photos.photo_0002, category: 'portrait', title: 'Studio Session' },
-  { id: 3, src: photos.photo_0003, category: 'fashion', title: 'Fashion Editorial' },
-  { id: 4, src: photos.photo_0004, category: 'fashion', title: 'High Fashion' },
-  { id: 5, src: photos.photo_0005, category: 'commercial', title: 'Product Photography' },
-  { id: 6, src: photos.photo_0006, category: 'commercial', title: 'Brand Campaign' },
-  { id: 7, src: photos.photo_0007, category: 'portrait', title: 'Creative Portrait' },
-  { id: 8, src: photos.photo_0008, category: 'fashion', title: 'Street Fashion' },
-  { id: 9, src: photos.photo_0009, category: 'event', title: 'Event Coverage' },
-  { id: 10, src: photos.photo_0010, category: 'commercial', title: 'Commercial Shoot' },
-  { id: 11, src: photos.photo_0011, category: 'portrait', title: 'Expressive Portrait' },
-  { id: 12, src: photos.photo_0012, category: 'fashion', title: 'Fashion Outdoor' },
-  { id: 13, src: photos.photo_0013, category: 'event', title: 'Live Event' },
-  { id: 14, src: photos.photo_0014, category: 'commercial', title: 'Studio Commercial' },
-  { id: 15, src: photos.photo_0015, category: 'portrait', title: 'Natural Light' },
+  { id: 1, src: photos.photo_0007, category: 'portrait', title: 'Modern Portrait' },
+  { id: 2, src: photos.photo_0008, category: 'portrait', title: 'Studio Session' },
+  { id: 3, src: photos.photo_0009, category: 'fashion', title: 'Fashion Editorial' },
+  { id: 4, src: photos.photo_0010, category: 'fashion', title: 'High Fashion' },
+  { id: 5, src: photos.photo_0011, category: 'commercial', title: 'Product Photography' },
+  { id: 6, src: photos.photo_0012, category: 'commercial', title: 'Brand Campaign' },
+  { id: 7, src: photos.photo_0013, category: 'portrait', title: 'Creative Portrait' },
+  { id: 8, src: photos.photo_0015, category: 'fashion', title: 'Street Fashion' },
+  { id: 9, src: photos.photo_0016, category: 'event', title: 'Event Coverage' },
+  { id: 10, src: photos.photo_0017, category: 'commercial', title: 'Commercial Shoot' },
+  { id: 11, src: photos.photo_0018, category: 'portrait', title: 'Expressive Portrait' },
+  { id: 12, src: photos.photo_0019, category: 'fashion', title: 'Fashion Outdoor' },
+  { id: 13, src: photos.photo_0020, category: 'event', title: 'Live Event' },
+  { id: 14, src: photos.photo_0021, category: 'commercial', title: 'Studio Commercial' },
+  { id: 15, src: photos.photo_0022, category: 'portrait', title: 'Natural Light' },
 ];
 
 const categories = [
