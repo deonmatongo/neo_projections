@@ -38,11 +38,11 @@ export default function Hero() {
       <AnimatePresence mode="wait">
         <motion.div
           key={currentIndex}
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.95 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
-          className="absolute inset-0"
+          className="absolute inset-0 overflow-hidden bg-black"
         >
           <img
             src={heroImages[currentIndex]}
@@ -52,7 +52,12 @@ export default function Hero() {
               imageRendering: 'auto',
               WebkitImageRendering: 'optimizeQuality',
               backfaceVisibility: 'hidden',
-              transform: 'translateZ(0)'
+              transform: 'translateZ(0) scale(0.85)',
+              objectPosition: 'center center',
+              width: '120%',
+              height: '120%',
+              left: '-10%',
+              top: '-10%'
             }}
             loading="eager"
             fetchPriority="high"
