@@ -1,13 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Instagram, ArrowUpRight } from 'lucide-react';
-import { photos } from '@/utils/images';
 
 export default function Contact() {
   return (
     <section className="bg-black py-32 px-6" id="contact">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="max-w-2xl">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -50,21 +49,6 @@ export default function Contact() {
                 Instagram
               </a>
             </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative"
-          >
-            <img
-              src={photos.photo_0024}
-              alt="Studio"
-              className="w-full h-[500px] object-cover grayscale"
-            />
-            <div className="absolute inset-0 border border-white/10 translate-x-4 translate-y-4" />
           </motion.div>
         </div>
 
