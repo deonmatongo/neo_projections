@@ -26,7 +26,7 @@ export default function ServiceCard({ service, index }) {
         <motion.img
           src={service.image}
           alt={service.title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
           whileHover={{ scale: 1.15 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         />

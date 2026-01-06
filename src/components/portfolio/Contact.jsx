@@ -62,7 +62,7 @@ export default function Contact() {
             <img
               src={photos.photo_0024}
               alt="Studio"
-              className="w-full h-[500px] object-cover"
+              className="w-full h-[500px] object-cover grayscale"
             />
             <div className="absolute inset-0 border border-white/10 translate-x-4 translate-y-4" />
           </motion.div>
