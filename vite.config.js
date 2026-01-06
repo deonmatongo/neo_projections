@@ -21,4 +21,18 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    assetsInlineLimit: 0, // Don't inline images to preserve quality
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          // Preserve original image quality
+          if (assetInfo.name && /\.(jpg|jpeg|png|gif|svg|webp)$/.test(assetInfo.name)) {
+            return 'assets/[name][extname]';
+          }
+          return 'assets/[name]-[hash][extname]';
+        }
+      }
+    }
+  }
 }) 

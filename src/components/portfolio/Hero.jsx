@@ -12,6 +12,18 @@ const heroImages = [
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [imagesLoaded, setImagesLoaded] = useState({});
+
+  // Preload all hero images for better quality
+  useEffect(() => {
+    heroImages.forEach((imgSrc, index) => {
+      const img = new Image();
+      img.src = imgSrc;
+      img.onload = () => {
+        setImagesLoaded(prev => ({ ...prev, [index]: true }));
+      };
+    });
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -32,9 +44,20 @@ export default function Hero() {
           transition={{ duration: 1.5, ease: "easeInOut" }}
           className="absolute inset-0"
         >
-          <div 
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: `url(${heroImages[currentIndex]})` }}
+          <img
+            src={heroImages[currentIndex]}
+            alt={`Hero image ${currentIndex + 1}`}
+            className="absolute inset-0 w-full h-full object-cover"
+            style={{ 
+              imageRendering: 'auto',
+              WebkitImageRendering: 'optimizeQuality',
+              imageRendering: '-webkit-optimize-contrast',
+              backfaceVisibility: 'hidden',
+              transform: 'translateZ(0)'
+            }}
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-black/60" />
         </motion.div>

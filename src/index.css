@@ -156,3 +156,20 @@ button:focus-visible {
     @apply bg-background text-foreground;
   }
 }
+
+/* High-quality image rendering */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* Ensure hero images are rendered at full quality */
+section img {
+  image-rendering: auto;
+  -webkit-image-rendering: optimizeQuality;
+}
