@@ -157,19 +157,27 @@ button:focus-visible {
   }
 }
 
-/* High-quality image rendering */
+/* High-quality image rendering - prevents pixelation */
 img {
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
   image-rendering: auto;
+  -webkit-image-rendering: optimizeQuality;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  /* Prevent browser from downscaling images */
+  -ms-interpolation-mode: bicubic;
 }
 
 /* Ensure hero images are rendered at full quality */
 section img {
+  image-rendering: auto;
+  -webkit-image-rendering: optimizeQuality;
+}
+
+/* Gallery and portfolio images */
+.gallery img,
+.portfolio img {
   image-rendering: auto;
   -webkit-image-rendering: optimizeQuality;
 }

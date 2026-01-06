@@ -51,7 +51,6 @@ export default function Hero() {
             style={{ 
               imageRendering: 'auto',
               WebkitImageRendering: 'optimizeQuality',
-              imageRendering: '-webkit-optimize-contrast',
               backfaceVisibility: 'hidden',
               transform: 'translateZ(0)'
             }}

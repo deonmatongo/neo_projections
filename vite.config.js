@@ -23,6 +23,8 @@ export default defineConfig({
   },
   build: {
     assetsInlineLimit: 0, // Don't inline images to preserve quality
+    // Disable image optimization to preserve quality
+    assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.gif', '**/*.svg', '**/*.webp'],
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
