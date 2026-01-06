@@ -15,7 +15,7 @@ export default function About() {
           >
             <div className="relative">
               <img
-                src={photos.photo_0028}
+                src={photos.photo_0027}
                 alt="Photographer"
                 className="w-full grayscale"
               />

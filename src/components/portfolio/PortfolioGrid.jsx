@@ -108,7 +108,7 @@ const portfolioImages = [
   },
   {
     id: 18,
-    src: photos.photo_0027,
+    src: photos.photo_0029,
     title: "PRODUCT VISION",
     category: "commercial"
   }

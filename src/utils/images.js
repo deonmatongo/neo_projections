@@ -1,5 +1,6 @@
 // Import all photos from neo_projection_photos folder
-import photo_0001 from '../neo_projection_photos/photo_0001.jpg';
+// photo_0001 replaced with photo_0027
+import photo_0001 from '../neo_projection_photos/photo_0027.jpg';
 import photo_0002 from '../neo_projection_photos/photo_0002.jpg';
 import photo_0003 from '../neo_projection_photos/photo_0003.jpg';
 import photo_0004 from '../neo_projection_photos/photo_0004.jpg';
@@ -12,7 +13,8 @@ import photo_0010 from '../neo_projection_photos/photo_0010.jpg';
 import photo_0011 from '../neo_projection_photos/photo_0011.jpg';
 import photo_0012 from '../neo_projection_photos/photo_0012.jpg';
 import photo_0013 from '../neo_projection_photos/photo_0013.jpg';
-import photo_0014 from '../neo_projection_photos/photo_0014.jpg';
+// photo_0014 replaced with photo_0028
+import photo_0014 from '../neo_projection_photos/photo_0028.jpg';
 import photo_0015 from '../neo_projection_photos/photo_0015.jpg';
 import photo_0016 from '../neo_projection_photos/photo_0016.jpg';
 import photo_0017 from '../neo_projection_photos/photo_0017.jpg';
