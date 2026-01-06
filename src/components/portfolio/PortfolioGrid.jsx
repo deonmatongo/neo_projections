@@ -238,7 +238,7 @@ export default function PortfolioGrid() {
                   <motion.img
                     src={image.src}
                     alt={image.title}
-                    className="w-full h-full object-cover grayscale"
+                    className="w-full h-full object-cover"
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
                   />
