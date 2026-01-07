@@ -243,9 +243,9 @@ export default function Services() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-white py-12 sm:py-16">
-        <div className="max-w-7xl mx-auto">
-          <Footer />
+      <footer className="bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <Footer variant="light" />
         </div>
       </footer>
     </div>
