@@ -17,7 +17,7 @@ export default function About() {
               <img
                 src={photos.photo_0023}
                 alt="Photographer"
-                className="w-full grayscale"
+                className="w-full"
               />
               <div className="absolute inset-0 border border-white/20 -translate-x-4 -translate-y-4" />
             </div>
