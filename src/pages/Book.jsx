@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { ArrowLeft } from 'lucide-react';
 import BookingForm from '@/components/booking/BookingForm';
+import Footer from '@/components/Footer';
 
 export default function Book() {
   return (
@@ -78,6 +79,13 @@ export default function Book() {
           </motion.div>
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className="bg-white py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto">
+          <Footer />
+        </div>
+      </footer>
     </div>
   );
 }

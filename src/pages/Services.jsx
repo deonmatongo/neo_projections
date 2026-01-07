@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ServiceCard from '@/components/services/ServiceCard';
 import { photos } from '@/utils/images';
+import Footer from '@/components/Footer';
 
 const services = [
   {
@@ -240,6 +241,13 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-white py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto">
+          <Footer />
+        </div>
+      </footer>
     </div>
   );
 }

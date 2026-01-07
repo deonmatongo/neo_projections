@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { useQuery } from '@tanstack/react-query';
+import Footer from '@/components/Footer';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { BarChart3, Calendar, AlertCircle, Loader2, Download, Home, RefreshCw, Clock, Bell, Users } from 'lucide-react';
@@ -341,6 +342,13 @@ export default function Admin() {
               onClose={() => setMessagingClient(null)}
               />
               )}
+
+              {/* Footer */}
+              <footer className="bg-gradient-to-br from-gray-50 to-gray-100 py-12 sm:py-16 border-t border-black/10">
+                <div className="max-w-7xl mx-auto px-4 md:px-6">
+                  <Footer />
+                </div>
+              </footer>
               </div>
               );
               }

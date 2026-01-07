@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { photos } from '@/utils/images';
+import Footer from '@/components/Footer';
 
 const galleryImages = [
   { id: 1, src: photos.photo_0007, category: 'portrait', title: 'Modern Portrait' },
@@ -232,6 +233,13 @@ export default function Gallery() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Footer */}
+      <footer className="bg-black py-12 sm:py-16">
+        <div className="max-w-7xl mx-auto">
+          <Footer />
+        </div>
+      </footer>
     </div>
   );
 }
