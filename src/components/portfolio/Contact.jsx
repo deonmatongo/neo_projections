@@ -28,16 +28,16 @@ export default function Contact() {
                 <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
               
-              <a href="tel:+15551234567" 
+              <a href="tel:+48512345678" 
                  className="flex items-center gap-4 text-white/60 hover:text-white transition-colors group">
                 <Phone className="w-5 h-5" />
-                <span className="tracking-wide">+1 (555) 123-4567</span>
+                <span className="tracking-wide">+48 512 345 678</span>
                 <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
               
               <div className="flex items-center gap-4 text-white/60">
                 <MapPin className="w-5 h-5" />
-                <span className="tracking-wide">New York, NY</span>
+                <span className="tracking-wide">ul. Nowy Świat 15/17, 00-001 Warszawa, Polska</span>
               </div>
             </div>
 
